@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Anta&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *::-webkit-scrollbar {
+    @apply w-0;
+  }
+  body {
+    @apply font-paragraph antialiased text-foreground-50 bg-[#0B0B1D];
+  }
+}
